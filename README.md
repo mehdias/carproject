@@ -1,9 +1,9 @@
 # README
 
-# project_name: CarProject
+# CarProject
 
 
-the project is used for car and parts dealing purposes. it has admin panel,the admin has the ability to create content, edit and delete them. as well as they can respond to quote requests sent by visitors.
+This is an application for a used car dealer and dismantler.the application has an admin panel,the admin has the ability to create content, edit and delete content.Admin can respond to quote requests and update pages and maintain inventory and parts database. 
 the users(visitors) on the other hand can ask for quotes, check contents, search and find cars and parts and buy them using stripe. 
 the structure of the site contain about us, services, inventory and contact us pages. 
 This app is located at [https://www.carproject-mehdi-aslamy.herokuapp.com]
@@ -19,7 +19,8 @@ This app is located at [https://www.carproject-mehdi-aslamy.herokuapp.com]
 - PostgreSQL 9.5.x or higher
 
 
-
+# Getting Started:
+To get started clone the repository and install the gems using bundle install
 ## Create the database
 
  ```
@@ -33,7 +34,9 @@ This app is located at [https://www.carproject-mehdi-aslamy.herokuapp.com]
 $ rake db:migrate
 $ rake db:seed
 ```
-
+# run the test suite using rspec
+bundle exec rspec
+if tests passes you can start running the app locally
 ## Starting the local server
 
 ```
@@ -58,11 +61,10 @@ Bug reports and feature requests can be filed with the rest for the Ruby on Rail
 * [File Bug Reports and Features](https://github.com/<user-name>/<project-repo>/issues)
 
 ## License
-
-<Project Name> is released under the [MIT license](https://mit-license.org).
+CarProject is released under the [MIT license](https://mit-license.org).
 
 ## Copyright
 
-copyright:: (c) Copyright 2018 <Mohammad Mehdi> <Aslamy>. All Rights Reserved.
+copyright:: (c) Copyright 2018 Mohammad Mehdi Aslamy. All Rights Reserved.
 
 * ...
