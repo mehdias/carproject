@@ -1,2 +1,14 @@
-<h1>StaticPages#contact</h1>
-<p>Find me in app/views/static_pages/contact.html.erb</p>
+<% provide(:title, "Contact") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> <%= yield(:title) %> | Cash For Your Car!</title>
+  </head>
+  <body>
+    <h1>Contact us</h1>
+    <p>
+      you can call us at: 2092211846
+      
+    </p>
+  </body>
+</html>
