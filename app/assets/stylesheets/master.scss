@@ -1,0 +1,47 @@
+
+@import "bootstrap";
+
+
+.center {
+  text-align: center;
+}
+.center h1{ 
+  margin-bottom: 10px;
+  color: white;
+}
+.center h2 {
+  color: white;
+}
+
+.jumbotron {
+  background: image_url('matt-antonioli-549554-unsplash') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-radius: 0;
+}
+footer{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 2px solid #eaeeee
+
+}
+footer small{
+  float: left;
+}
+footer ul{
+  float: right;
+  list-style: none;
+}
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+.services {
+    text-align: center;
+}
+.services-tag{
+    text-align: center;
+}
