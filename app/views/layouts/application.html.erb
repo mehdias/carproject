@@ -15,13 +15,14 @@
 
   <body>
     <%= render 'layouts/navbar' %>
-      
+      <div class "container">
         <% if notice.present? %>
           <p class="alert-alert-infor"><%= notice %>
         <% end %>
         <% if alert.present? %>
           <p class="alert alert-danger"><%= alert %>
         <% end %>
+      </div>
       
     <%= yield %>
     <%= render 'layouts/footer' %>

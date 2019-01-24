@@ -63,3 +63,5 @@ end
 
 gem 'devise'
 gem 'simple_form'
+gem 'rails_admin', '~>1.3'
+gem 'cancancan', '~> 2.0'
